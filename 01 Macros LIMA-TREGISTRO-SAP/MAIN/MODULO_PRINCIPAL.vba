@@ -1,16 +1,16 @@
 Attribute VB_Name = "MODULO_PRINCIPAL"
 Sub MACRO_PRINCIPAL_DEL_PROYECTO()
-'Esta línea desactiva las alertas y mensajes que se muestran en Excel durante la ejecución de la macro, para evitar interrupciones innecesarias.
+'Esta lï¿½nea desactiva las alertas y mensajes que se muestran en Excel durante la ejecuciï¿½n de la macro, para evitar interrupciones innecesarias.
 Application.DisplayAlerts = False
-' Esta línea llama a otra subrutina llamada "EXTRACION_DE_REPORTES_SAP_VALIDADOR"
+' Esta lï¿½nea llama a otra subrutina llamada "EXTRACION_DE_REPORTES_SAP_VALIDADOR"
 Call EXTRACION_DE_REPORTES_SAP_VALIDADOR
-'Esta línea llama a otra subrutina llamada "EXTRACION_DE_REPORTES_SUELDO_VALIDADOR
+'Esta lï¿½nea llama a otra subrutina llamada "EXTRACION_DE_REPORTES_SUELDO_VALIDADOR
 Call EXTRACION_DE_REPORTES_SUELDO_VALIDADOR
-' Esta línea llama a otra subrutina llamada "ANALISIS_DOCUMENTOS_TRS
+' Esta lï¿½nea llama a otra subrutina llamada "ANALISIS_DOCUMENTOS_TRS
 Call ANALISIS_DOCUMENTOS_TRS
-'Esta línea llama a otra subrutina llamada "MOVIMIENTO_ARCHIVOS_CENTRAL
+'Esta lï¿½nea llama a otra subrutina llamada "MOVIMIENTO_ARCHIVOS_CENTRAL
 Call MOVIMIENTO_ARCHIVOS_CENTRAL
-'Esta línea llama a otra subrutina llamada "PASO_FINAL", que presumiblemente realiza
+'Esta lï¿½nea llama a otra subrutina llamada "PASO_FINAL", que presumiblemente realiza
 Call PASO_FINAL
 End Sub
 
@@ -51,7 +51,7 @@ ActiveSheet.DisplayPageBreaks = False
 
 On Error Resume Next
 Dim origen, destino As Worksheet
-Workbooks.Open "C:\Macros LIMA\VALIDACION TXT PLAME\MC PROYECTO\SAP_REPORTES_MAESTRA.xlsm"
+Workbooks.Open ""
 
 '
 'HOJA DE CREDENCIALES
@@ -90,7 +90,7 @@ Workbooks("SAP_REPORTES_MAESTRA.xlsm").Worksheets("CREDENCIALES SAP").Activate
     ActiveSheet.Paste
     Application.CutCopyMode = False
     
-'HOJA DE TRANSACCIÓN
+'HOJA DE TRANSACCIï¿½N
 '
     
 'MOVIMIENTO DE FECHA INICIAL
@@ -172,7 +172,7 @@ Application.Calculation = xlCalculationManual
 Application.EnableEvents = False
 ActiveSheet.DisplayPageBreaks = False
 
-LIBRO = "C:\Macros LIMA\VALIDACION TXT PLAME\MC PROYECTO\SAP_REPORTES_MAESTRA.xlsm"
+LIBRO = ""
 ExcelApp.Workbooks.Open (LIBRO)
 ExcelApp.Visible = True
 ExcelApp.Run "SAP_extract_DataMaestra_Reporte"
@@ -202,7 +202,7 @@ Application.Calculation = xlCalculationManual
 Application.EnableEvents = False
 ActiveSheet.DisplayPageBreaks = False
 
-LIBRO = "C:\Macros LIMA\VALIDACION TXT PLAME\MC PROYECTO\SAP_REPORTES_MAESTRA.xlsm"
+LIBRO = "C:\SAP_REPORTES_MAESTRA.xlsm"
 ExcelApp.Workbooks.Open (LIBRO)
 ExcelApp.Visible = True
 ExcelApp.Run "cerrar_archivo_export_maestra"
@@ -488,7 +488,7 @@ End Sub
 Sub ANALISIS_DOCUMENTOS_TRS()
 
 'MACROS DEL TERCER  PASO
-' CON ESTA MACRO SE ABRE AUTOMATICAMENTE EL REPORTE DE EXTRACION DE TR´S, SE PEGA EN EL EXCEL Y SE CIERRA EL ARCHIVO
+' CON ESTA MACRO SE ABRE AUTOMATICAMENTE EL REPORTE DE EXTRACION DE TRï¿½S, SE PEGA EN EL EXCEL Y SE CIERRA EL ARCHIVO
 
 Application.DisplayAlerts = False
 Application.ScreenUpdating = False
@@ -523,7 +523,7 @@ Application.EnableEvents = False
 ActiveSheet.DisplayPageBreaks = False
 
 
-LIBRO = "C:\Macros LIMA\VALIDACION TXT PLAME\MC PROYECTO\Extractor Documentos TR´s.xlsm"
+LIBRO = "C:\Macros LIMA\VALIDACION TXT PLAME\MC PROYECTO\Extractor Documentos TRï¿½s.xlsm"
 
 ExcelApp.Workbooks.Open (LIBRO)
 ExcelApp.Visible = True
@@ -560,7 +560,7 @@ ActiveSheet.DisplayPageBreaks = False
 
 
 
-LIBRO = "C:\Macros LIMA\VALIDACION TXT PLAME\MC PROYECTO\Extractor Documentos TR´s.xlsm"
+LIBRO = "C:\Macros LIMA\VALIDACION TXT PLAME\MC PROYECTO\Extractor Documentos TRï¿½s.xlsm"
 
 ExcelApp.Workbooks.Open (LIBRO)
 ExcelApp.Visible = True
@@ -594,7 +594,7 @@ Application.EnableEvents = False
 ActiveSheet.DisplayPageBreaks = False
 
 
-LIBRO = "C:\Macros LIMA\VALIDACION TXT PLAME\MC PROYECTO\Extractor Documentos TR´s.xlsm"
+LIBRO = "C:\Macros LIMA\VALIDACION TXT PLAME\MC PROYECTO\Extractor Documentos TRï¿½s.xlsm"
 
 ExcelApp.Workbooks.Open (LIBRO)
 ExcelApp.Visible = True
@@ -619,7 +619,7 @@ End Sub
 Sub MOVIMIENTO_ARCHIVOS_CENTRAL()
 
 'MACROS DEL CUARTO  PASO
-' CON ESTA MACRO SE ABRE AUTOMATICAMENTE EL VALIDADOR Y LOS ARCHIVOS CON LA DATA MAESTRA, SUELDOS Y DE TR´S, SE PEGA EN EL EXCEL DEL VALIDADOR Y SE CIERRA EL ARCHIVO
+' CON ESTA MACRO SE ABRE AUTOMATICAMENTE EL VALIDADOR Y LOS ARCHIVOS CON LA DATA MAESTRA, SUELDOS Y DE TRï¿½S, SE PEGA EN EL EXCEL DEL VALIDADOR Y SE CIERRA EL ARCHIVO
 
 Application.DisplayAlerts = False
 Application.ScreenUpdating = False
@@ -713,7 +713,7 @@ End Sub
 Sub PASO_FINAL()
 
 'MACROS DEL QUINTO  PASO
-' CON ESTA MACRO SE ABRE AUTOMATICAMENTE EL VALIDADOR Y SE EJECUTA LAS MACROS PARA PROCESAR LOS EXCEL , VALIDAR INFORMACIÓN Y GENERAR UN REPORTE CON ERRORES, TARER EL REPORTE Y CERRAR EL VALIDADOR
+' CON ESTA MACRO SE ABRE AUTOMATICAMENTE EL VALIDADOR Y SE EJECUTA LAS MACROS PARA PROCESAR LOS EXCEL , VALIDAR INFORMACIï¿½N Y GENERAR UN REPORTE CON ERRORES, TARER EL REPORTE Y CERRAR EL VALIDADOR
 
 Application.DisplayAlerts = False
 Application.ScreenUpdating = False
