@@ -1,0 +1,59 @@
+DIA|HORA|BOT|PROCESO|COMENTARIO|ESTADO
+2023-03-13|17:30:03.080||VALIDACION DE EXISTENCIA DE CORREO|Inicio del proceso principal de la Automatización de Boletas y Constancias de Pago|SATISFACTORIO
+2023-03-13|17:30:04.180||VALIDACION DE EXISTENCIA DE CORREO|Transporte de valores desde el compartido al sistema|SATISFACTORIO
+2023-03-13|17:31:01.350||VALIDACION DE EXISTENCIA DE CORREO|Inicio del proceso principal de la Automatización de Boletas y Constancias de Pago|SATISFACTORIO
+2023-03-13|17:31:02.470||VALIDACION DE EXISTENCIA DE CORREO|Transporte de valores desde el compartido al sistema|SATISFACTORIO
+2023-03-13|17:34:41.530||VALIDACION DE EXISTENCIA DE CORREO|Inicio del proceso principal de la Automatización de Boletas y Constancias de Pago|SATISFACTORIO
+2023-03-13|17:34:42.640||VALIDACION DE EXISTENCIA DE CORREO|Transporte de valores desde el compartido al sistema|SATISFACTORIO
+2023-03-13|17:34:44.950||DESCARGA DE REPORTE DE SAP|Inicio del proceso de descarga de Reporte de Sap|SATISFACTORIO
+2023-03-13|17:35:09.270||PEGADO DE REPORTE DE SAP|Inicio del proceso de Pegado de Reporte de Sap en Excel|SATISFACTORIO
+2023-03-13|17:35:09.280||ELIMINAR  REPORTE DE SAP|Inicio del proceso de eliminar el reporte existente de Sap en Excel|SATISFACTORIO
+2023-03-13|17:35:09.280||ELIMINAR  REPORTE DE SAP|Final del proceso de eliminar el reporte existente de Sap en Excel|SATISFACTORIO
+2023-03-13|17:35:17.940||PEGADO DE REPORTE DE SAP|Proceso correcto de pegado de reporte Sap|SATISFACTORIO
+2023-03-13|17:35:17.940||PEGADO DE REPORTE DE SAP|Final del proceso de Pegado de Reporte de Sap en Excel|SATISFACTORIO
+2023-03-13|17:35:18.330||DESCARGA DE REPORTE DE SAP|Descarga Correcta del Reporte Sap|SATISFACTORIO
+2023-03-13|17:35:18.340||DESCARGA DE REPORTE DE SAP|Final de descarga del Reporte Sap|SATISFACTORIO
+2023-03-13|17:35:23.000||ELIMINAR REGISTROS DE PDF EN LA TABLA DEL SISTEMA|Inicio del proceso de eliminar datos de tabla|SATISFACTORIO
+2023-03-13|17:35:23.000||ELIMINAR REGISTROS DE PDF EN LA TABLA DEL SISTEMA|Fin del proceso de eliminar datos de tabla|SATISFACTORIO
+2023-03-13|17:35:33.000||PROCESO DE LECTURA DE PDF|Inicio del proceso de LECTURA DE PDF´S|SATISFACTORIO
+2023-03-13|17:35:33.000||ELIMINAR REGISTROS DE PDF EN LA TABLA DEL SISTEMA|Inicio del proceso de eliminar datos de tabla|SATISFACTORIO
+2023-03-13|17:35:33.000||ELIMINAR REGISTROS DE PDF EN LA TABLA DEL SISTEMA|Fin del proceso de eliminar datos de tabla|SATISFACTORIO
+2023-03-13|18:31:31.020||MOVIMIENTO DE COLUMNAS MASIVAS|Inicio del movimiento de columnas masivas|SATISFACTORIO
+2023-03-13|18:31:31.020||ELIMINAR REGISTROS DE SAP EN LA TABLA DEL SISTEMA|Inicio del proceso de eliminar datos de tabla|SATISFACTORIO
+2023-03-13|18:31:31.030||ELIMINAR REGISTROS DE SAP EN LA TABLA DEL SISTEMA|Fin del proceso de eliminar datos de tabla|SATISFACTORIO
+2023-03-13|18:31:32.170||MOVIMIENTO DE COLUMNAS MASIVAS|Final del movimiento de columnas masivas|SATISFACTORIO
+2023-03-13|18:31:36.000||INICIO DE VALIDACION DE CONSTANCIA AVANZADA|Inicio del proceso de validación de constancia avanzada|SATISFACTORIO
+2023-03-13|18:31:37.520||INICIO DE VALIDACION DE CONSTANCIA AVANZADA|Final del proceso de validación de constancia avanzada|SATISFACTORIO
+2023-03-13|18:31:41.000||ELIMINAR COLUMNAS VALIDADAS EXISTENTES|Inicio del proceso de columnas de validación|SATISFACTORIO
+2023-03-13|18:31:41.050||ELIMINAR COLUMNAS VALIDADAS EXISTENTES|Fin del proceso de columnas de validación|SATISFACTORIO
+2023-03-13|18:31:47.000||LIMPIEZA DE DATOS DEL PROCESO DE VALIDACIÓN AVANZADA|Inicio del proceso de limpieza de datos de hoja proceso|SATISFACTORIO
+2023-03-13|18:31:47.020||LIMPIEZA DE DATOS DEL PROCESO DE VALIDACIÓN AVANZADA|Final del proceso de limpieza de datos de hoja proceso|SATISFACTORIO
+2023-03-13|18:31:56.340||VALIDACION DE EXISTENCIA DE CORREO|Envío de correo al Cliente con el reporte procesado realizado|SATISFACTORIO
+2023-03-13|18:31:56.340||VALIDACION DE EXISTENCIA DE CORREO|Fin del proceso principal de la Automatización de Boletas y Constancias de Pago|SATISFACTORIO
+2023-03-13|18:31:57.380||VALIDACION DE EXISTENCIA DE CORREO|Inicio del proceso principal de la Automatización de Boletas y Constancias de Pago|SATISFACTORIO
+2023-03-13|18:31:58.500||VALIDACION DE EXISTENCIA DE CORREO|Transporte de valores desde el compartido al sistema|SATISFACTORIO
+2023-03-13|18:32:04.420||DESCARGA DE REPORTE DE SAP|Inicio del proceso de descarga de Reporte de Sap|SATISFACTORIO
+2023-03-13|18:32:29.500||PEGADO DE REPORTE DE SAP|Inicio del proceso de Pegado de Reporte de Sap en Excel|SATISFACTORIO
+2023-03-13|18:32:29.500||ELIMINAR  REPORTE DE SAP|Inicio del proceso de eliminar el reporte existente de Sap en Excel|SATISFACTORIO
+2023-03-13|18:32:29.520||ELIMINAR  REPORTE DE SAP|Final del proceso de eliminar el reporte existente de Sap en Excel|SATISFACTORIO
+2023-03-13|18:32:37.520||PEGADO DE REPORTE DE SAP|Proceso correcto de pegado de reporte Sap|SATISFACTORIO
+2023-03-13|18:32:37.530||PEGADO DE REPORTE DE SAP|Final del proceso de Pegado de Reporte de Sap en Excel|SATISFACTORIO
+2023-03-13|18:32:37.920||DESCARGA DE REPORTE DE SAP|Descarga Correcta del Reporte Sap|SATISFACTORIO
+2023-03-13|18:32:37.920||DESCARGA DE REPORTE DE SAP|Final de descarga del Reporte Sap|SATISFACTORIO
+2023-03-13|18:32:43.000||ELIMINAR REGISTROS DE PDF EN LA TABLA DEL SISTEMA|Inicio del proceso de eliminar datos de tabla|SATISFACTORIO
+2023-03-13|18:32:44.800||ELIMINAR REGISTROS DE PDF EN LA TABLA DEL SISTEMA|Fin del proceso de eliminar datos de tabla|SATISFACTORIO
+2023-03-13|18:32:53.000||PROCESO DE LECTURA DE PDF|Inicio del proceso de LECTURA DE PDF´S|SATISFACTORIO
+2023-03-13|18:32:53.000||ELIMINAR REGISTROS DE PDF EN LA TABLA DEL SISTEMA|Inicio del proceso de eliminar datos de tabla|SATISFACTORIO
+2023-03-13|18:32:53.000||ELIMINAR REGISTROS DE PDF EN LA TABLA DEL SISTEMA|Fin del proceso de eliminar datos de tabla|SATISFACTORIO
+2023-03-13|19:28:52.130||MOVIMIENTO DE COLUMNAS MASIVAS|Inicio del movimiento de columnas masivas|SATISFACTORIO
+2023-03-13|19:28:52.130||ELIMINAR REGISTROS DE SAP EN LA TABLA DEL SISTEMA|Inicio del proceso de eliminar datos de tabla|SATISFACTORIO
+2023-03-13|19:28:54.350||ELIMINAR REGISTROS DE SAP EN LA TABLA DEL SISTEMA|Fin del proceso de eliminar datos de tabla|SATISFACTORIO
+2023-03-13|19:28:55.550||MOVIMIENTO DE COLUMNAS MASIVAS|Final del movimiento de columnas masivas|SATISFACTORIO
+2023-03-13|19:28:59.020||INICIO DE VALIDACION DE CONSTANCIA AVANZADA|Inicio del proceso de validación de constancia avanzada|SATISFACTORIO
+2023-03-13|19:29:00.480||INICIO DE VALIDACION DE CONSTANCIA AVANZADA|Final del proceso de validación de constancia avanzada|SATISFACTORIO
+2023-03-13|19:29:04.010||ELIMINAR COLUMNAS VALIDADAS EXISTENTES|Inicio del proceso de columnas de validación|SATISFACTORIO
+2023-03-13|19:29:04.090||ELIMINAR COLUMNAS VALIDADAS EXISTENTES|Fin del proceso de columnas de validación|SATISFACTORIO
+2023-03-13|19:29:10.010||LIMPIEZA DE DATOS DEL PROCESO DE VALIDACIÓN AVANZADA|Inicio del proceso de limpieza de datos de hoja proceso|SATISFACTORIO
+2023-03-13|19:29:10.020||LIMPIEZA DE DATOS DEL PROCESO DE VALIDACIÓN AVANZADA|Final del proceso de limpieza de datos de hoja proceso|SATISFACTORIO
+2023-03-13|19:29:20.280||VALIDACION DE EXISTENCIA DE CORREO|Envío de correo al Cliente con el reporte procesado realizado|SATISFACTORIO
+2023-03-13|19:29:20.280||VALIDACION DE EXISTENCIA DE CORREO|Fin del proceso principal de la Automatización de Boletas y Constancias de Pago|SATISFACTORIO
