@@ -17,3 +17,6 @@ Link: https://youtu.be/DSEuGZutsjo
 The "Automated Validation of Payment Slip Certificates" project aims to develop an automated system that extracts information from PDFs and validates their content against SAP system information. Manual validation of this data is a tedious process prone to errors, which can affect accuracy and consume a significant amount of time. The project will cover the entire validation process of payment slip certificates in PDF format, including extraction of information from PDF reports and SAP master data. The automation process will involve copying PDFs of payment slip certificates from units located in the Z share, and the system will paint the final report green or red based on whether they meet established parameters. The goal is to reduce the time and effort required for manual validation of payment slip certificate data, as well as increase the speed of validation processing and improve efficiency in the process. 
 
 Link: https://youtu.be/kvUu8oKHsbk
+
+
+![portfolio-10](https://user-images.githubusercontent.com/57787417/228102415-36171c7d-ca29-44e9-b93b-5e4d1fbb4e90.png)
